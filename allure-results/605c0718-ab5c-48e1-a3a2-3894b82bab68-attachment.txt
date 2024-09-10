@@ -1,0 +1,14 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '3 out of 7' test cases in the current suite                                        
+                                                Test Method: 'TestPackage.TestClass.tesFirstLink'                                                
+                                     Test Description: 'Check the first link of the result page is correct.'                                     
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Target URL: "https://duckduckgo.com/" @10-09-2024 18:50:32.0660 PM
+[ReportManager] Initial URL: "about:blank" @10-09-2024 18:50:32.0672 PM
+[ReportManager] Navigate to url "https://duckduckgo.com/". @10-09-2024 18:50:35.0578 PM
+[ReportManager] Text cleared Using Native Clear @10-09-2024 18:50:35.0721 PM
+[ReportManager] Type "Selenium Webdriver" into "Search with DuckDuckGo". @10-09-2024 18:50:35.0814 PM
+[ReportManager] Key press "ENTER" against "Search with DuckDuckGo". @10-09-2024 18:50:36.0344 PM
+[ReportManager] Get attribute "https://www.selenium.dev/documentation/webdriver/" from "WebDriver - Selenium". @10-09-2024 18:50:39.0348 PM

@@ -1,0 +1,17 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '5 out of 7' test cases in the current suite                                        
+                                              Test Method: 'TestPackage.TestClass.testDragAndDrop'                                              
+                                                     Test Description: 'DragAndDropPerform'                                                     
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Target URL: "https://jqueryui.com/resources/demos/droppable/default.html" @11-09-2024 00:59:39.0459 AM
+[ReportManager] Initial URL: "about:blank" @11-09-2024 00:59:39.0473 AM
+[ReportManager] Navigate to url "https://jqueryui.com/resources/demos/droppable/default.html". @11-09-2024 00:59:41.0133 AM
+[ReportManager] Drag and drop "Start point: (8, 18), End point: (8, 18)" against "By.id: draggable". @11-09-2024 00:59:42.0823 AM
+[ReportManager] Assert that the element located by "By.id: droppable" text is equal to "Dropped!". @11-09-2024 00:59:42.0823 AM
+[ReportManager] Expected "Dropped!", and actual "Dropped!" @11-09-2024 00:59:42.0930 AM
+[ReportManager] Successfully created attachment 'Screenshot - Assert_00-59-43-534_11092024' @11-09-2024 00:59:43.0535 AM
+[ReportManager] Expected "Dropped!", and actual "Dropped!" @11-09-2024 00:59:43.0535 AM
+[ReportManager] Assertion passed @11-09-2024 00:59:43.0535 AM
+[ReportManager] Assertion passed @11-09-2024 00:59:43.0536 AM

@@ -1,0 +1,16 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '6 out of 7' test cases in the current suite                                        
+                                        Test Method: 'TestPackage.TestClass.testTheCountryOfSpecificName'                                        
+                                            Test Description: 'CheckTheCountryOfTheNameFromRTheTable'                                            
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Target URL: "https://www.w3schools.com/html/html_tables.asp" @11-09-2024 00:59:45.0869 AM
+[ReportManager] Initial URL: "about:blank" @11-09-2024 00:59:45.0883 AM
+[ReportManager] Navigate to url "https://www.w3schools.com/html/html_tables.asp". @11-09-2024 01:00:32.0118 AM
+[ReportManager] Assert that the element located by "By.xpath: //table[@id='customers']//tr[td[1]='Ernst Handel']/td[3]" text is equal to "Austria". @11-09-2024 01:00:32.0120 AM
+[ReportManager] Expected "Austria", and actual "Austria" @11-09-2024 01:00:32.0299 AM
+[ReportManager] Successfully created attachment 'Screenshot - Assert_01-00-38-189_11092024' @11-09-2024 01:00:38.0198 AM
+[ReportManager] Expected "Austria", and actual "Austria" @11-09-2024 01:00:38.0198 AM
+[ReportManager] Assertion passed @11-09-2024 01:00:38.0199 AM
+[ReportManager] Assertion passed @11-09-2024 01:00:38.0199 AM

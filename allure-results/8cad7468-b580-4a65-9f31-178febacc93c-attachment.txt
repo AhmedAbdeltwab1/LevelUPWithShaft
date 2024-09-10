@@ -1,0 +1,16 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 7' test cases in the current suite                                        
+                                        Test Method: 'TestPackage.TestClass.checkHomePageTitleIsCorrect'                                        
+                                           Test Description: 'Check that Home Page Title is correct.'                                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Target URL: "https://www.google.com/" @10-09-2024 18:50:18.0451 PM
+[ReportManager] Initial URL: "about:blank" @10-09-2024 18:50:18.0481 PM
+[ReportManager] Navigate to url "https://www.google.com/". @10-09-2024 18:50:20.0429 PM
+[ReportManager] Assert that the browser title is equal to "Google". @10-09-2024 18:50:20.0444 PM
+[ReportManager] Expected "Google", and actual "Google" @10-09-2024 18:50:20.0469 PM
+[ReportManager] Successfully created attachment 'Screenshot - Assert_18-50-21-551_10092024' @10-09-2024 18:50:21.0551 PM
+[ReportManager] Expected "Google", and actual "Google" @10-09-2024 18:50:21.0551 PM
+[ReportManager] Assertion passed @10-09-2024 18:50:21.0551 PM
+[ReportManager] Assertion passed @10-09-2024 18:50:21.0553 PM

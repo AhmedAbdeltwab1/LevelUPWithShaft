@@ -1,0 +1,18 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '4 out of 7' test cases in the current suite                                        
+                                                Test Method: 'TestPackage.TestClass.testCheckBox'                                                
+                                       Test Description: 'Test the first checkbox of the page is checked.'                                       
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Target URL: "http://the-internet.herokuapp.com/checkboxes" @10-09-2024 18:50:44.0494 PM
+[ReportManager] Initial URL: "about:blank" @10-09-2024 18:50:44.0505 PM
+[ReportManager] Navigate to url "http://the-internet.herokuapp.com/checkboxes". @10-09-2024 18:50:57.0081 PM
+[ReportManager] Moved the mouse to the middle of the element. @10-09-2024 18:50:57.0749 PM
+[ReportManager] Click "By.xpath: //form[@id='checkboxes']/input[1]". @10-09-2024 18:50:58.0489 PM
+[ReportManager] Assert that the element located by "By.xpath: //form[@id='checkboxes']/input[1]" is selected; selected attribute is TRUE. @10-09-2024 18:50:58.0491 PM
+[ReportManager] Expected "true", and actual "true" @10-09-2024 18:50:58.0541 PM
+[ReportManager] Successfully created attachment 'Screenshot - Assert_18-50-58-888_10092024' @10-09-2024 18:50:58.0891 PM
+[ReportManager] Expected "true", and actual "true" @10-09-2024 18:50:58.0891 PM
+[ReportManager] Assertion passed @10-09-2024 18:50:58.0891 PM
+[ReportManager] Assertion passed @10-09-2024 18:50:58.0891 PM

@@ -1,0 +1,491 @@
+[INFO ] 2024-09-10 18:50:11.821 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.8.3.20240829[22m                                                    
+                                   Visit SHAFT's user guide [4mhttps://shafthq.github.io/[24m to learn more                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-10 18:50:11.833 [] ReportManager - Checking for engine updates...
+[INFO ] 2024-09-10 18:50:11.874 [] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2024-09-10 18:50:11.894 [main] ReportManager - TestNG run detected...
+[INFO ] 2024-09-10 18:50:11.896 [] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2024-09-10 18:50:12.361 [main] Utils - [TestNG] Running:
+  C:\Users\QOYOD\AppData\Local\JetBrains\IdeaIC2024.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-09-10 18:50:12.417 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-10 18:50:12.504 [main] ReportManager - Initializing Properties...
+[INFO ] 2024-09-10 18:50:12.765 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of before class configuration method                                             
+                                                       'TestPackage.TestClass.beforeClass'                                                       
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-10 18:50:12.779 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-09-10 18:50:12.783 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-09-10 18:50:12.794 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: beforeClass'
+[INFO ] 2024-09-10 18:50:12.839 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                            Starting execution of before method configuration method                                            
+                                                      'TestPackage.TestClass.beforeMethod'                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-10 18:50:12.897 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-09-10 18:50:13.418 [] ReportManager - Loaded OpenCV "opencv_java490".
+[INFO ] 2024-09-10 18:50:13.444 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-search-engine-cho..., --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Optimiza..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-sync, --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --remote-debugging-pipe, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: E:\Learning\Test Automation..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-09-10 18:50:13.446 [main] ReportManager - Attempting to run locally on: "Windows | Chrome".
+[INFO ] 2024-09-10 18:50:13.449 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[DEBUG] 2024-09-10 18:50:14.989 [] BasicClientConnectionManager - Get connection for route {s}->https://api.github.com:443
+[DEBUG] 2024-09-10 18:50:15.091 [] DefaultClientConnectionOperator - Connecting to api.github.com:443
+[DEBUG] 2024-09-10 18:50:15.686 [] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2024-09-10 18:50:15.688 [] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2024-09-10 18:50:15.688 [] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2024-09-10 18:50:15.691 [] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2024-09-10 18:50:15.691 [] DefaultClientConnection - Sending request: GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2024-09-10 18:50:15.691 [] wire -  >> "GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1[\r][\n]"
+[DEBUG] 2024-09-10 18:50:15.693 [] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2024-09-10 18:50:15.693 [] wire -  >> "Host: api.github.com[\r][\n]"
+[DEBUG] 2024-09-10 18:50:15.693 [] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2024-09-10 18:50:15.693 [] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.4)[\r][\n]"
+[DEBUG] 2024-09-10 18:50:15.693 [] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2024-09-10 18:50:15.693 [] wire -  >> "[\r][\n]"
+[DEBUG] 2024-09-10 18:50:15.693 [] headers - >> GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2024-09-10 18:50:15.693 [] headers - >> Accept: */*
+[DEBUG] 2024-09-10 18:50:15.693 [] headers - >> Host: api.github.com
+[DEBUG] 2024-09-10 18:50:15.693 [] headers - >> Connection: Keep-Alive
+[DEBUG] 2024-09-10 18:50:15.693 [] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.4)
+[DEBUG] 2024-09-10 18:50:15.693 [] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2024-09-10 18:50:16.043 [] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2024-09-10 18:50:16.046 [] wire -  << "Date: Tue, 10 Sep 2024 15:50:16 GMT[\r][\n]"
+[DEBUG] 2024-09-10 18:50:16.046 [] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[DEBUG] 2024-09-10 18:50:16.046 [] wire -  << "Cache-Control: public, max-age=60, s-maxage=60[\r][\n]"
+[DEBUG] 2024-09-10 18:50:16.046 [] wire -  << "Vary: Accept,Accept-Encoding, Accept, X-Requested-With[\r][\n]"
+[DEBUG] 2024-09-10 18:50:16.046 [] wire -  << "ETag: W/"80dfcb9aabf23e82705ee9c01f0a833b49e7a33b9f68f1b42c7740863c73e050"[\r][\n]"
+[DEBUG] 2024-09-10 18:50:16.046 [] wire -  << "Last-Modified: Thu, 29 Aug 2024 16:46:16 GMT[\r][\n]"
+[DEBUG] 2024-09-10 18:50:16.046 [] wire -  << "X-GitHub-Media-Type: github.v3; format=json[\r][\n]"
+[DEBUG] 2024-09-10 18:50:16.046 [] wire -  << "x-github-api-version-selected: 2022-11-28[\r][\n]"
+[DEBUG] 2024-09-10 18:50:16.046 [] wire -  << "Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset[\r][\n]"
+[DEBUG] 2024-09-10 18:50:16.046 [] wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2024-09-10 18:50:16.046 [] wire -  << "Strict-Transport-Security: max-age=31536000; includeSubdomains; preload[\r][\n]"
+[DEBUG] 2024-09-10 18:50:16.046 [] wire -  << "X-Frame-Options: deny[\r][\n]"
+[DEBUG] 2024-09-10 18:50:16.046 [] wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+[DEBUG] 2024-09-10 18:50:16.046 [] wire -  << "X-XSS-Protection: 0[\r][\n]"
+[DEBUG] 2024-09-10 18:50:16.046 [] wire -  << "Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin[\r][\n]"
+[DEBUG] 2024-09-10 18:50:16.046 [] wire -  << "Content-Security-Policy: default-src 'none'[\r][\n]"
+[DEBUG] 2024-09-10 18:50:16.046 [] wire -  << "Content-Encoding: gzip[\r][\n]"
+[DEBUG] 2024-09-10 18:50:16.046 [] wire -  << "Server: github.com[\r][\n]"
+[DEBUG] 2024-09-10 18:50:16.046 [] wire -  << "X-RateLimit-Limit: 60[\r][\n]"
+[DEBUG] 2024-09-10 18:50:16.046 [] wire -  << "X-RateLimit-Remaining: 59[\r][\n]"
+[DEBUG] 2024-09-10 18:50:16.046 [] wire -  << "X-RateLimit-Reset: 1725987016[\r][\n]"
+[DEBUG] 2024-09-10 18:50:16.046 [] wire -  << "X-RateLimit-Resource: core[\r][\n]"
+[DEBUG] 2024-09-10 18:50:16.048 [] wire -  << "X-RateLimit-Used: 1[\r][\n]"
+[DEBUG] 2024-09-10 18:50:16.048 [] wire -  << "Accept-Ranges: bytes[\r][\n]"
+[DEBUG] 2024-09-10 18:50:16.048 [] wire -  << "Content-Length: 966[\r][\n]"
+[DEBUG] 2024-09-10 18:50:16.048 [] wire -  << "X-GitHub-Request-Id: B727:38D79C:C78EA2A:CA620BF:66E06AB7[\r][\n]"
+[DEBUG] 2024-09-10 18:50:16.048 [] wire -  << "[\r][\n]"
+[DEBUG] 2024-09-10 18:50:16.048 [] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2024-09-10 18:50:16.048 [] headers - << HTTP/1.1 200 OK
+[DEBUG] 2024-09-10 18:50:16.048 [] headers - << Date: Tue, 10 Sep 2024 15:50:16 GMT
+[DEBUG] 2024-09-10 18:50:16.048 [] headers - << Content-Type: application/json; charset=utf-8
+[DEBUG] 2024-09-10 18:50:16.048 [] headers - << Cache-Control: public, max-age=60, s-maxage=60
+[DEBUG] 2024-09-10 18:50:16.048 [] headers - << Vary: Accept,Accept-Encoding, Accept, X-Requested-With
+[DEBUG] 2024-09-10 18:50:16.048 [] headers - << ETag: W/"80dfcb9aabf23e82705ee9c01f0a833b49e7a33b9f68f1b42c7740863c73e050"
+[DEBUG] 2024-09-10 18:50:16.048 [] headers - << Last-Modified: Thu, 29 Aug 2024 16:46:16 GMT
+[DEBUG] 2024-09-10 18:50:16.048 [] headers - << X-GitHub-Media-Type: github.v3; format=json
+[DEBUG] 2024-09-10 18:50:16.048 [] headers - << x-github-api-version-selected: 2022-11-28
+[DEBUG] 2024-09-10 18:50:16.048 [] headers - << Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+[DEBUG] 2024-09-10 18:50:16.048 [] headers - << Access-Control-Allow-Origin: *
+[DEBUG] 2024-09-10 18:50:16.048 [] headers - << Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+[DEBUG] 2024-09-10 18:50:16.048 [] headers - << X-Frame-Options: deny
+[DEBUG] 2024-09-10 18:50:16.048 [] headers - << X-Content-Type-Options: nosniff
+[DEBUG] 2024-09-10 18:50:16.048 [] headers - << X-XSS-Protection: 0
+[DEBUG] 2024-09-10 18:50:16.048 [] headers - << Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+[DEBUG] 2024-09-10 18:50:16.048 [] headers - << Content-Security-Policy: default-src 'none'
+[DEBUG] 2024-09-10 18:50:16.048 [] headers - << Content-Encoding: gzip
+[DEBUG] 2024-09-10 18:50:16.048 [] headers - << Server: github.com
+[DEBUG] 2024-09-10 18:50:16.048 [] headers - << X-RateLimit-Limit: 60
+[DEBUG] 2024-09-10 18:50:16.048 [] headers - << X-RateLimit-Remaining: 59
+[DEBUG] 2024-09-10 18:50:16.048 [] headers - << X-RateLimit-Reset: 1725987016
+[DEBUG] 2024-09-10 18:50:16.048 [] headers - << X-RateLimit-Resource: core
+[DEBUG] 2024-09-10 18:50:16.048 [] headers - << X-RateLimit-Used: 1
+[DEBUG] 2024-09-10 18:50:16.048 [] headers - << Accept-Ranges: bytes
+[DEBUG] 2024-09-10 18:50:16.048 [] headers - << Content-Length: 966
+[DEBUG] 2024-09-10 18:50:16.048 [] headers - << X-GitHub-Request-Id: B727:38D79C:C78EA2A:CA620BF:66E06AB7
+[DEBUG] 2024-09-10 18:50:16.063 [] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+[DEBUG] 2024-09-10 18:50:16.063 [] wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xb5][0x96][\r]k[0xdb]8[0x18][0xc7][0xbf][0x8a][0xf1][0x18][0x83]\,[0xbf][0xc4]I[0x1d][0xc3][0xd8]][0x97][0xee][0x95][0xb6]l-[0x1c][0xdc]6[0x82]l+[0xb6][0xae][0xb6][0xa4]IrJ[0x16][0xfa][0xdd][0xf7][0xc8]vB"
+[DEBUG] 2024-09-10 18:50:16.063 [] wire -  << "cnio[0xde][0x8][0xc4][0x8a]"[0xfd][0x9e][0xc7][0xe9][0xf9]K[[0xbb][0x96][0xa5][0x1d][0xdb][0x85][0xd6]B[0xc5][0xae][0x8b][0x5]E9[0xd5]E[0x9d][0xa0][0x94]W[0xae]$[0x82]+[0xf7][0xaa][0xc0]+[0xfd][0xe6][0x83]{[0xf5][0xe6][0xaf]W[0xd7][0xcb][0xb3][0x8b][0xd7]o/[0xce][0xe0][0xaf][0x92]`E[0x94][0xeb][0x9f][0x4]3[0xdf][0xf3][0xc3][0x89]=[0xb6][0xb1]RD[0xab][0xe5][0xaf]c[0xba]-[0x11][0xd0][0xb5](9[0xce]z[0xe8][0xb6]S[0xfd]t[0xca][0x1d]~[0xfb][0x82][0xe1][0x8a][0x8c]K[0x9c][0x90][0xf2][0xe]b[0x15][0xba]*{[0x91][0xee][0x89]r\[0xe][0x8d]s7B[0x13][0x14]xA[0xe8]E[0xc1][0x1c]p4[0xb3][0xe3][0xbd]J R[0xad][0xb].[0xed]xk[0x97]<[0xa7][0xc][0xd4]o[0xe1][0xe]N5[0xe5]L}J[0xb8][0xfe][0xd2]M[0xb][0xfd]h[0x1e][0x5]Q0[0xb6][0x19][0xcf][0xc8][0xd2][0x90][0xec][0xf3][0xc5][0xf9][0xec]C5[0xf7].[0x16]g[0xe1][0xe5]u[0xbe][0xb9]\[0xbc]}n[0xb4]_c[0x8d]e_[0xfb][0xa6]s'P[0xad][0x88]L9[0xd3][0x84][0xe9]fy)s[0xfd][0xe9]d[0x16][0xbd]X?[0xf][0x81][0x90][0xcb][0x8e][0xd1][0x84]1[0x9a][0x1f][0xdb][0x1b][0x6][0xa6][0xdc][0xc3][0xd4][0x9f]NO![0xf9][0xa7][0xd3][0xc5][0x83]"b![0xfa][0x93]a[0xce][0x8a][0x97]%[0xbf][0x5]n[0xff]5[0xe][0xb7][0xe5][0xd1][0xd0][0xee][0x1e][0xb2][0x7]R[0x96][0xf][0x7][0x2]d[0xeb]r][0x10][0xd0][0x18]^[0xdd][0xec][0x93][0x9c][0xaa][0x87]v[0xfb][0xf1]T[0x1b][0xc0][0x16]DT[0x1a][0xd6][0xd6] [0x15],[0x97]$[0xfd]}[0xde]+[0xcb][0xe3][0xd0][0xe][0x1][0xc9][0xde]2[0xc8]s[0xdb]Tq[0xc3][0xae][0x13][0x95]J*[0x9a]]6D[0x90][0x3][0x10][0x80][0xb9][0xcc]1[0xa3][0xdf][0xf0]`0[0x80][0x14][0xf0][0x1a][0xdb][0x19][0x92]`[0x3][0x0][0x10]Y[0xc3]V[0x1f]Dj[0x9][WH[0xba][0xc6][0xe9][0xc6][0xc8](IJ[0xe8][0x1a][0xd6]h8[0xbd][0x87][0x2][0xb8][0xde][0x8][0x2][0xc5]w[0xca][0xb5]Y0[0xaa][0xc9][0x12]g[0x95]1[0x89][0x15].[0x15][0xb9][0xbb][0xef][0x3][0x1f][0xcf][0x96]7[0xb7][0x8b][0xcb][0x97][0xaf][0xc9][0xf5]L[0x85][0xef][0xaf][0xb2]w+[0x3][0xc0][0xf9][0xd2][0xb8][0x19]@z6[0x4];+'z[0x9][0x85]_QMU[0x1]#*[0xc]h`[0xfe][0xe7][0xf8]L[0x82][0xed]w[0x81][0xc7][0xb6][0x90][0xa4][0xb3][0xfc]}W*[0x9][0xd6][0xa0][0x3][0x86]Q[0xb6][0xf1];[0xc7][0x8b][0x9c]`~[0xed][0xcf][0xe2]p[0x1a][0x87][0xf3][0x0]-[0xea][0xa4][0x84]X?[0x18]5[0x8b][0xfd][0x99][0x19][0xd5][0xb9]|[0xfc][0xe9][0x8b]y[0x1][0x99][0xe0][0xb2][0xef][0xbf][0x8f]?[0x98][0xba][0xf9]}[0x13][0xfe]F[0xc5] l7[0xbf][0x8f]Mx[0xb6][0x81][0xb7][0xf2][0xc4][0xfa][0xbb][0xc0][0xfa][0x99][0xb2]^[0x16][0x98][0xe5]$[0xfb][0xcc]F[0xd6]i][0x9][0xb][0xe4]F9[0xe7]yIP*7Bs[0xa4])[0xbb][0x89][0xcd][0x97][0x83]o[0xd5]M[0xa5][0xac][0x95][0xe4][0x95][0xe5]#[0xdf]C[0x9e][0xa5]y[0xdb][0xf2][0xad]dc[0xfd][0x99][0x11]AX[0x86][0xc1]S-[0xca][0xac][0xdd]![0xfd][0xd0]Y$[0xea][0xb2][0x84]c[0xd9][0x9f][0xee][0x93][0x80][0xba]B[0x15]Oo[0xa8][0xe6]q[0xf7]tR.I[0x1b]z[0x8a][0xfc][0xa0][\r][\r][0xad][0x9][0xb4][0x6][0x87][0xe][0xbc][0x83][0xd0]X[0xe0][0xb4] [0xa8][0xc2]P[0x8e]H[0x94]5[0x9c]z*n~9[0xaa][0x96]dE%q[0xda][0xee]6[0xa1][0x9][\n]"
+[DEBUG] 2024-09-10 18:50:16.063 [] wire -  << "[0xdb]|&h[0xfa]+[0xd2][0xf1][0xe7][0x8f]M[0xe7]_8[0x1]3[0x9e][0xf6][0xb2][0x89]v[0xd9]4K4X[0x1d]?[0xfa]q:;=[0xe2][0xbd]0[0x9a]([0xcd][0xf2][0xdf]$[0xcc][0xc9]A&[\n]"
+[DEBUG] 2024-09-10 18:50:16.063 [] wire -  << "[0xee]t[0x8c][0xd6]U[0xf1][0x15][0xed][0x9a][0xf1][0xae][0xe1][0x18]i[0xda],B[0x14]L[0x90]o[0xb6]*[0xb4][0xcc]J[\r]V$[0xf0]M[0x1e][0xf7][0xfd][0xaa]a[0x9e][0xf3][0x2]'[0xf0]E[0xc9]Ol[0xff] [0xf8][0xcc][0xcc]g4z[0x5][0xf5][0xd0][0xd5]%[0xdc][0xb8]F[0xa3][0xf8][0xd1][0x95][0x4][0xc5]+[0xb0]$[0xf7][0x8b][0xfe][0x4]![0xd4]3V[0xb0][0xc1][0xf6][0xe6]f[0xee]tG[0xef]L[0xff][0xeb]>[\r][0xe7][0xf6][0x8e][0xb][0xae][0xc8]5.[0xc1][0xbb]k[0x6]f[0xeb][0x8f][0xed]?[0xfc][0xe6][0xe1][0xc0][0xc3][0x1b][0xdb]%[0xae]s[0xf0]sh[0x15][0x9c]K[0xc][0x8e][0x4]M[0xb8][0xe9][0xad][0xe0][0xa6][0x0]w9[0xd3]O[0xb0][0x84][0x99][0xd0][0x92][0xe0][0x3][0xa4]m[0x92][\r]Q[0xd0][0x7][0xa7]J[0x5][0xe7]ds+[0xe8]"[0x4]w[0xdf][0x1][0x8f]s[0xa6][0xe3][0x1a][0xc][0x0][0x0]"
+[DEBUG] 2024-09-10 18:50:16.063 [] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2024-09-10 18:50:16.143 [] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@2ec81f6a
+[DEBUG] 2024-09-10 18:50:16.143 [] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[INFO ] 2024-09-10 18:50:17.072 [] ReportManager - You're using the latest engine version "8.3.20240829". 👍
+[INFO ] 2024-09-10 18:50:18.264 [main] ReportManager - Successfully Opened: "Windows | Chrome".
+[INFO ] 2024-09-10 18:50:18.273 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: beforeMethod'
+[INFO ] 2024-09-10 18:50:18.403 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 7' test cases in the current suite                                        
+                                        Test Method: 'TestPackage.TestClass.checkHomePageTitleIsCorrect'                                        
+                                           Test Description: 'Check that Home Page Title is correct.'                                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-10 18:50:18.451 [main] ReportManager - Target URL: "https://www.google.com/"
+[INFO ] 2024-09-10 18:50:18.481 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-09-10 18:50:20.429 [main] ReportManager - Navigate to url "https://www.google.com/".
+[INFO ] 2024-09-10 18:50:20.444 [main] ReportManager - Assert that the browser title is equal to "Google".
+[DEBUG] 2024-09-10 18:50:20.469 [main] ReportManager - Expected "Google", and actual "Google"
+[DEBUG] 2024-09-10 18:50:20.788 [Finalizer] DefaultClientConnection - Connection 0.0.0.0:12819<->140.82.121.6:443 closed
+[INFO ] 2024-09-10 18:50:21.551 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_18-50-21-551_10092024'
+[INFO ] 2024-09-10 18:50:21.551 [main] ReportManager - Expected "Google", and actual "Google"
+[INFO ] 2024-09-10 18:50:21.553 [main] ReportManager - Assertion passed
+[INFO ] 2024-09-10 18:50:21.553 [main] ReportManager - Assertion passed
+[INFO ] 2024-09-10 18:50:21.560 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: checkHomePageTitleIsCorrect'
+[INFO ] 2024-09-10 18:50:21.560 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                             Finished Execution of Test Method: 'TestPackage.TestClass.checkHomePageTitleIsCorrect'                             
+                                           Test Description: 'Check that Home Page Title is correct.'                                           
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-10 18:50:21.572 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of after method configuration method                                             
+                                                       'TestPackage.TestClass.afterMethod'                                                       
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-10 18:50:21.927 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-09-10 18:50:21.929 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: afterMethod'
+[INFO ] 2024-09-10 18:50:21.932 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                            Starting execution of before method configuration method                                            
+                                                      'TestPackage.TestClass.beforeMethod'                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-10 18:50:21.934 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-09-10 18:50:22.445 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-search-engine-cho..., --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Optimiza..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-sync, --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --remote-debugging-pipe, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: E:\Learning\Test Automation..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-09-10 18:50:22.448 [main] ReportManager - Attempting to run locally on: "Windows | Chrome".
+[INFO ] 2024-09-10 18:50:22.448 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[INFO ] 2024-09-10 18:50:24.089 [main] ReportManager - Successfully Opened: "Windows | Chrome".
+[INFO ] 2024-09-10 18:50:24.091 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: beforeMethod'
+[INFO ] 2024-09-10 18:50:24.096 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '2 out of 7' test cases in the current suite                                        
+                             Test Method: 'TestPackage.TestClass.checkResultStatsIsNotEmptyAfterSearchingForAQuery'                             
+                              Test Description: 'Check that Result Stats is not empty after searching for a query.'                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-10 18:50:24.099 [main] ReportManager - Target URL: "https://www.google.com/"
+[INFO ] 2024-09-10 18:50:24.112 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-09-10 18:50:26.135 [main] ReportManager - Navigate to url "https://www.google.com/".
+[DEBUG] 2024-09-10 18:50:26.269 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-10 18:50:26.348 [main] ReportManager - Type "SHAFT_Engine" into "بحث".
+[INFO ] 2024-09-10 18:50:26.953 [main] ReportManager - Key press "ENTER" against "بحث".
+[INFO ] 2024-09-10 18:50:26.958 [main] ReportManager - Assert that the element located by "By.id: result-stats" text does not equal "".
+[DEBUG] 2024-09-10 18:50:28.586 [main] ReportManager - Expected "", and actual "حوالى 520,000 نتيجة (0.20 ثانية) "
+[INFO ] 2024-09-10 18:50:30.166 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_18-50-30-160_10092024'
+[INFO ] 2024-09-10 18:50:30.167 [main] ReportManager - Expected "", and actual "حوالى 520,000 نتيجة (0.20 ثانية) "
+[INFO ] 2024-09-10 18:50:30.167 [main] ReportManager - Assertion passed
+[INFO ] 2024-09-10 18:50:30.170 [main] ReportManager - Assertion passed
+[INFO ] 2024-09-10 18:50:30.171 [main] ReportManager - Check that result stats is not empty
+[INFO ] 2024-09-10 18:50:30.175 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: checkResultStatsIsNotEmptyAfterSearchingForAQuery'
+[INFO ] 2024-09-10 18:50:30.175 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                  Finished Execution of Test Method: 'TestPackage.TestClass.checkResultStatsIsNotEmptyAfterSearchingForAQuery'                  
+                              Test Description: 'Check that Result Stats is not empty after searching for a query.'                              
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-10 18:50:30.177 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of after method configuration method                                             
+                                                       'TestPackage.TestClass.afterMethod'                                                       
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-10 18:50:30.552 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-09-10 18:50:30.555 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: afterMethod'
+[INFO ] 2024-09-10 18:50:30.557 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                            Starting execution of before method configuration method                                            
+                                                      'TestPackage.TestClass.beforeMethod'                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-10 18:50:30.566 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-09-10 18:50:31.071 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-search-engine-cho..., --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Optimiza..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-sync, --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --remote-debugging-pipe, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: E:\Learning\Test Automation..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-09-10 18:50:31.071 [main] ReportManager - Attempting to run locally on: "Windows | Chrome".
+[INFO ] 2024-09-10 18:50:31.073 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[INFO ] 2024-09-10 18:50:32.652 [main] ReportManager - Successfully Opened: "Windows | Chrome".
+[INFO ] 2024-09-10 18:50:32.654 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: beforeMethod'
+[INFO ] 2024-09-10 18:50:32.658 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '3 out of 7' test cases in the current suite                                        
+                                                Test Method: 'TestPackage.TestClass.tesFirstLink'                                                
+                                     Test Description: 'Check the first link of the result page is correct.'                                     
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-10 18:50:32.660 [main] ReportManager - Target URL: "https://duckduckgo.com/"
+[INFO ] 2024-09-10 18:50:32.672 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-09-10 18:50:35.578 [main] ReportManager - Navigate to url "https://duckduckgo.com/".
+[DEBUG] 2024-09-10 18:50:35.721 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-10 18:50:35.814 [main] ReportManager - Type "Selenium Webdriver" into "Search with DuckDuckGo".
+[INFO ] 2024-09-10 18:50:36.344 [main] ReportManager - Key press "ENTER" against "Search with DuckDuckGo".
+[INFO ] 2024-09-10 18:50:39.348 [main] ReportManager - Get attribute "https://www.selenium.dev/documentation/webdriver/" from "WebDriver - Selenium".
+[INFO ] 2024-09-10 18:50:39.350 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: tesFirstLink'
+[INFO ] 2024-09-10 18:50:39.350 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                     Finished Execution of Test Method: 'TestPackage.TestClass.tesFirstLink'                                     
+                                     Test Description: 'Check the first link of the result page is correct.'                                     
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-10 18:50:39.351 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of after method configuration method                                             
+                                                       'TestPackage.TestClass.afterMethod'                                                       
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-10 18:50:40.430 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-09-10 18:50:40.432 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: afterMethod'
+[INFO ] 2024-09-10 18:50:40.435 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                            Starting execution of before method configuration method                                            
+                                                      'TestPackage.TestClass.beforeMethod'                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-10 18:50:40.440 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-09-10 18:50:40.943 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-search-engine-cho..., --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Optimiza..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-sync, --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --remote-debugging-pipe, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: E:\Learning\Test Automation..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-09-10 18:50:40.943 [main] ReportManager - Attempting to run locally on: "Windows | Chrome".
+[INFO ] 2024-09-10 18:50:40.943 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[INFO ] 2024-09-10 18:50:44.486 [main] ReportManager - Successfully Opened: "Windows | Chrome".
+[INFO ] 2024-09-10 18:50:44.487 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: beforeMethod'
+[INFO ] 2024-09-10 18:50:44.493 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '4 out of 7' test cases in the current suite                                        
+                                                Test Method: 'TestPackage.TestClass.testCheckBox'                                                
+                                       Test Description: 'Test the first checkbox of the page is checked.'                                       
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-10 18:50:44.494 [main] ReportManager - Target URL: "http://the-internet.herokuapp.com/checkboxes"
+[INFO ] 2024-09-10 18:50:44.505 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-09-10 18:50:57.081 [main] ReportManager - Navigate to url "http://the-internet.herokuapp.com/checkboxes".
+[INFO ] 2024-09-10 18:50:57.749 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-10 18:50:58.489 [main] ReportManager - Click "By.xpath: //form[@id='checkboxes']/input[1]".
+[INFO ] 2024-09-10 18:50:58.491 [main] ReportManager - Assert that the element located by "By.xpath: //form[@id='checkboxes']/input[1]" is selected; selected attribute is TRUE.
+[DEBUG] 2024-09-10 18:50:58.541 [main] ReportManager - Expected "true", and actual "true"
+[INFO ] 2024-09-10 18:50:58.891 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_18-50-58-888_10092024'
+[INFO ] 2024-09-10 18:50:58.891 [main] ReportManager - Expected "true", and actual "true"
+[INFO ] 2024-09-10 18:50:58.891 [main] ReportManager - Assertion passed
+[INFO ] 2024-09-10 18:50:58.891 [main] ReportManager - Assertion passed
+[INFO ] 2024-09-10 18:50:58.891 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: testCheckBox'
+[INFO ] 2024-09-10 18:50:58.893 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                     Finished Execution of Test Method: 'TestPackage.TestClass.testCheckBox'                                     
+                                       Test Description: 'Test the first checkbox of the page is checked.'                                       
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-10 18:50:58.893 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of after method configuration method                                             
+                                                       'TestPackage.TestClass.afterMethod'                                                       
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-10 18:51:00.841 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-09-10 18:51:00.841 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: afterMethod'
+[INFO ] 2024-09-10 18:51:00.843 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                            Starting execution of before method configuration method                                            
+                                                      'TestPackage.TestClass.beforeMethod'                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-10 18:51:00.846 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-09-10 18:51:01.351 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-search-engine-cho..., --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Optimiza..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-sync, --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --remote-debugging-pipe, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: E:\Learning\Test Automation..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-09-10 18:51:01.351 [main] ReportManager - Attempting to run locally on: "Windows | Chrome".
+[INFO ] 2024-09-10 18:51:01.351 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[INFO ] 2024-09-10 18:51:02.540 [main] ReportManager - Successfully Opened: "Windows | Chrome".
+[INFO ] 2024-09-10 18:51:02.541 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: beforeMethod'
+[INFO ] 2024-09-10 18:51:02.546 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '5 out of 7' test cases in the current suite                                        
+                                              Test Method: 'TestPackage.TestClass.testDragAndDrop'                                              
+                                                     Test Description: 'DragAndDropPerform'                                                     
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-10 18:51:02.548 [main] ReportManager - Target URL: "https://jqueryui.com/resources/demos/droppable/default.html"
+[INFO ] 2024-09-10 18:51:02.559 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-09-10 18:51:06.883 [main] ReportManager - Navigate to url "https://jqueryui.com/resources/demos/droppable/default.html".
+[INFO ] 2024-09-10 18:51:08.217 [main] ReportManager - Drag and drop "Start point: (8, 18), End point: (8, 18)" against "By.id: draggable".
+[INFO ] 2024-09-10 18:51:08.218 [main] ReportManager - Assert that the element located by "By.id: droppable" text is equal to "Dropped!".
+[DEBUG] 2024-09-10 18:51:08.273 [main] ReportManager - Expected "Dropped!", and actual "Dropped!"
+[INFO ] 2024-09-10 18:51:09.108 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_18-51-09-108_10092024'
+[INFO ] 2024-09-10 18:51:09.108 [main] ReportManager - Expected "Dropped!", and actual "Dropped!"
+[INFO ] 2024-09-10 18:51:09.108 [main] ReportManager - Assertion passed
+[INFO ] 2024-09-10 18:51:09.108 [main] ReportManager - Assertion passed
+[INFO ] 2024-09-10 18:51:09.108 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: testDragAndDrop'
+[INFO ] 2024-09-10 18:51:09.111 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                   Finished Execution of Test Method: 'TestPackage.TestClass.testDragAndDrop'                                   
+                                                     Test Description: 'DragAndDropPerform'                                                     
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-10 18:51:09.111 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of after method configuration method                                             
+                                                       'TestPackage.TestClass.afterMethod'                                                       
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-10 18:51:09.396 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-09-10 18:51:09.396 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: afterMethod'
+[INFO ] 2024-09-10 18:51:09.398 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                            Starting execution of before method configuration method                                            
+                                                      'TestPackage.TestClass.beforeMethod'                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-10 18:51:09.401 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-09-10 18:51:09.904 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-search-engine-cho..., --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Optimiza..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-sync, --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --remote-debugging-pipe, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: E:\Learning\Test Automation..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-09-10 18:51:09.906 [main] ReportManager - Attempting to run locally on: "Windows | Chrome".
+[INFO ] 2024-09-10 18:51:09.906 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[INFO ] 2024-09-10 18:51:11.133 [main] ReportManager - Successfully Opened: "Windows | Chrome".
+[INFO ] 2024-09-10 18:51:11.134 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: beforeMethod'
+[INFO ] 2024-09-10 18:51:11.138 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '6 out of 7' test cases in the current suite                                        
+                                        Test Method: 'TestPackage.TestClass.testTheCountryOfSpecificName'                                        
+                                            Test Description: 'CheckTheCountryOfTheNameFromRTheTable'                                            
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-10 18:51:11.141 [main] ReportManager - Target URL: "https://www.w3schools.com/html/html_tables.asp"
+[INFO ] 2024-09-10 18:51:11.155 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-09-10 18:52:12.482 [main] ReportManager - Navigate to url "https://www.w3schools.com/html/html_tables.asp".
+[INFO ] 2024-09-10 18:52:12.483 [main] ReportManager - Assert that the element located by "By.xpath: //table[@id='customers']//tr[td[1]='Ernst Handel']/td[3]" text is equal to "Austria".
+[DEBUG] 2024-09-10 18:52:13.606 [main] ReportManager - Expected "Austria", and actual "Austria"
+[INFO ] 2024-09-10 18:52:17.162 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_18-52-17-153_10092024'
+[INFO ] 2024-09-10 18:52:17.162 [main] ReportManager - Expected "Austria", and actual "Austria"
+[INFO ] 2024-09-10 18:52:17.162 [main] ReportManager - Assertion passed
+[INFO ] 2024-09-10 18:52:17.163 [main] ReportManager - Assertion passed
+[INFO ] 2024-09-10 18:52:17.169 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: testTheCountryOfSpecificName'
+[INFO ] 2024-09-10 18:52:17.169 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                             Finished Execution of Test Method: 'TestPackage.TestClass.testTheCountryOfSpecificName'                             
+                                            Test Description: 'CheckTheCountryOfTheNameFromRTheTable'                                            
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-10 18:52:17.172 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of after method configuration method                                             
+                                                       'TestPackage.TestClass.afterMethod'                                                       
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[WARN ] 2024-09-10 18:52:17.670 [main] ReportManager - Sep 10, 2024 6:52:17 PM org.openqa.selenium.remote.http.jdk.JdkHttpClient close
+[WARN ] 2024-09-10 18:52:17.671 [main] ReportManager - WARNING: failed to close the websocket: org.openqa.selenium.remote.http.jdk.JdkHttpClient$4@cbaabfb
+[WARN ] 2024-09-10 18:52:17.671 [main] ReportManager - org.openqa.selenium.WebDriverException: java.io.IOException: Output closed
+[WARN ] 2024-09-10 18:52:17.671 [main] ReportManager - Build info: version: '4.24.0', revision: '748ffc9bc3'
+[WARN ] 2024-09-10 18:52:17.674 [main] ReportManager - System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+[WARN ] 2024-09-10 18:52:17.675 [main] ReportManager - Driver info: driver.version: SHAFT$GUI$WebDriver
+[WARN ] 2024-09-10 18:52:17.675 [main] ReportManager - 	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.send(JdkHttpClient.java:320)
+[WARN ] 2024-09-10 18:52:17.675 [main] ReportManager - 	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.close(JdkHttpClient.java:339)
+[WARN ] 2024-09-10 18:52:17.675 [main] ReportManager - 	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.close(JdkHttpClient.java:478)
+[WARN ] 2024-09-10 18:52:17.676 [main] ReportManager - 	at org.openqa.selenium.bidi.Connection.close(Connection.java:267)
+[WARN ] 2024-09-10 18:52:17.676 [main] ReportManager - 	at org.openqa.selenium.bidi.BiDi.close(BiDi.java:41)
+[WARN ] 2024-09-10 18:52:17.676 [main] ReportManager - 	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+[WARN ] 2024-09-10 18:52:17.676 [main] ReportManager - 	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:426)
+[WARN ] 2024-09-10 18:52:17.676 [main] ReportManager - 	at com.shaft.driver.internal.DriverFactory.DriverFactoryHelper.closeDriver(DriverFactoryHelper.java:265)
+[WARN ] 2024-09-10 18:52:17.676 [main] ReportManager - 	at com.shaft.driver.internal.DriverFactory.DriverFactoryHelper.closeDriver(DriverFactoryHelper.java:247)
+[WARN ] 2024-09-10 18:52:17.676 [main] ReportManager - 	at com.shaft.driver.SHAFT$GUI$WebDriver.quit(SHAFT.java:58)
+[WARN ] 2024-09-10 18:52:17.676 [main] ReportManager - 	at TestPackage.AbstractTestCase.afterMethod(AbstractTestCase.java:24)
+[WARN ] 2024-09-10 18:52:17.676 [main] ReportManager - 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[WARN ] 2024-09-10 18:52:17.676 [main] ReportManager - 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[WARN ] 2024-09-10 18:52:17.677 [main] ReportManager - 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+[WARN ] 2024-09-10 18:52:17.677 [main] ReportManager - 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+[WARN ] 2024-09-10 18:52:17.677 [main] ReportManager - 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+[WARN ] 2024-09-10 18:52:17.677 [main] ReportManager - 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+[WARN ] 2024-09-10 18:52:17.677 [main] ReportManager - 	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+[WARN ] 2024-09-10 18:52:17.677 [main] ReportManager - 	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:802)
+[WARN ] 2024-09-10 18:52:17.677 [main] ReportManager - 	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:778)
+[WARN ] 2024-09-10 18:52:17.678 [main] ReportManager - 	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+[WARN ] 2024-09-10 18:52:17.678 [main] ReportManager - 	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+[WARN ] 2024-09-10 18:52:17.678 [main] ReportManager - 	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+[WARN ] 2024-09-10 18:52:17.678 [main] ReportManager - 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+[WARN ] 2024-09-10 18:52:17.678 [main] ReportManager - 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+[WARN ] 2024-09-10 18:52:17.678 [main] ReportManager - 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+[WARN ] 2024-09-10 18:52:17.678 [main] ReportManager - 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+[WARN ] 2024-09-10 18:52:17.679 [main] ReportManager - 	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+[WARN ] 2024-09-10 18:52:17.679 [main] ReportManager - 	at org.testng.TestRunner.run(TestRunner.java:614)
+[WARN ] 2024-09-10 18:52:17.679 [main] ReportManager - 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+[WARN ] 2024-09-10 18:52:17.679 [main] ReportManager - 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+[WARN ] 2024-09-10 18:52:17.679 [main] ReportManager - 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+[WARN ] 2024-09-10 18:52:17.679 [main] ReportManager - 	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+[WARN ] 2024-09-10 18:52:17.679 [main] ReportManager - 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+[WARN ] 2024-09-10 18:52:17.679 [main] ReportManager - 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+[WARN ] 2024-09-10 18:52:17.679 [main] ReportManager - 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+[WARN ] 2024-09-10 18:52:17.679 [main] ReportManager - 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+[WARN ] 2024-09-10 18:52:17.679 [main] ReportManager - 	at org.testng.TestNG.runSuites(TestNG.java:1112)
+[WARN ] 2024-09-10 18:52:17.679 [main] ReportManager - 	at org.testng.TestNG.run(TestNG.java:1079)
+[WARN ] 2024-09-10 18:52:17.679 [main] ReportManager - 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+[WARN ] 2024-09-10 18:52:17.679 [main] ReportManager - 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+[WARN ] 2024-09-10 18:52:17.681 [main] ReportManager - Caused by: java.io.IOException: Output closed
+[WARN ] 2024-09-10 18:52:17.681 [main] ReportManager - 	at java.net.http/jdk.internal.net.http.websocket.WebSocketImpl.sendClose(WebSocketImpl.java:313)
+[WARN ] 2024-09-10 18:52:17.681 [main] ReportManager - 	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.lambda$send$2(JdkHttpClient.java:285)
+[WARN ] 2024-09-10 18:52:17.681 [main] ReportManager - 	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.send(JdkHttpClient.java:310)
+[WARN ] 2024-09-10 18:52:17.681 [main] ReportManager - 	... 40 more
+[INFO ] 2024-09-10 18:52:17.882 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-09-10 18:52:17.884 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: afterMethod'
+[INFO ] 2024-09-10 18:52:17.889 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                            Starting execution of before method configuration method                                            
+                                                      'TestPackage.TestClass.beforeMethod'                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-10 18:52:17.916 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-09-10 18:52:18.423 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-search-engine-cho..., --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Optimiza..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-sync, --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --remote-debugging-pipe, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: E:\Learning\Test Automation..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-09-10 18:52:18.423 [main] ReportManager - Attempting to run locally on: "Windows | Chrome".
+[INFO ] 2024-09-10 18:52:18.423 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[INFO ] 2024-09-10 18:52:20.193 [main] ReportManager - Successfully Opened: "Windows | Chrome".
+[INFO ] 2024-09-10 18:52:20.195 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: beforeMethod'
+[INFO ] 2024-09-10 18:52:20.200 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '7 out of 7' test cases in the current suite                                        
+                                              Test Method: 'TestPackage.TestClass.testUploadImage'                                              
+                                                      Test Description: 'CheckUploadImage'                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-10 18:52:20.207 [main] ReportManager - Target URL: "http://the-internet.herokuapp.com/upload"
+[INFO ] 2024-09-10 18:52:20.220 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-09-10 18:52:22.825 [main] ReportManager - Navigate to url "http://the-internet.herokuapp.com/upload".
+[INFO ] 2024-09-10 18:52:22.929 [main] ReportManager - Type file location for upload "E:\Learning\Test Automation\projects\ShaftLevelUP\ShaftLevelUPgrade\src\main\resources\DataFiles\3.jpg" into "Choose File".
+[INFO ] 2024-09-10 18:52:23.070 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-10 18:52:24.161 [main] ReportManager - Click "Upload".
+[INFO ] 2024-09-10 18:52:24.164 [main] ReportManager - Assert that the element located by "By.id: uploaded-files" text is equal to "3.jpg".
+[DEBUG] 2024-09-10 18:52:24.259 [main] ReportManager - Expected "3.jpg", and actual "3.jpg"
+[INFO ] 2024-09-10 18:52:24.601 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_18-52-24-600_10092024'
+[INFO ] 2024-09-10 18:52:24.601 [main] ReportManager - Expected "3.jpg", and actual "3.jpg"
+[INFO ] 2024-09-10 18:52:24.601 [main] ReportManager - Assertion passed
+[INFO ] 2024-09-10 18:52:24.601 [main] ReportManager - Assertion passed
+[INFO ] 2024-09-10 18:52:24.602 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: testUploadImage'
+[INFO ] 2024-09-10 18:52:24.602 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                   Finished Execution of Test Method: 'TestPackage.TestClass.testUploadImage'                                   
+                                                      Test Description: 'CheckUploadImage'                                                      
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-10 18:52:24.605 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of after method configuration method                                             
+                                                       'TestPackage.TestClass.afterMethod'                                                       
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-10 18:52:24.933 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-09-10 18:52:24.933 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: afterMethod'
+[INFO ] 2024-09-10 18:52:24.936 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine tear down configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTearDown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-10 18:52:24.938 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'

@@ -1,0 +1,19 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '7 out of 7' test cases in the current suite                                        
+                                              Test Method: 'TestPackage.TestClass.testUploadImage'                                              
+                                                      Test Description: 'CheckUploadImage'                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Target URL: "http://the-internet.herokuapp.com/upload" @10-09-2024 18:52:20.0207 PM
+[ReportManager] Initial URL: "about:blank" @10-09-2024 18:52:20.0219 PM
+[ReportManager] Navigate to url "http://the-internet.herokuapp.com/upload". @10-09-2024 18:52:22.0825 PM
+[ReportManager] Type file location for upload "E:\Learning\Test Automation\projects\ShaftLevelUP\ShaftLevelUPgrade\src\main\resources\DataFiles\3.jpg" into "Choose File". @10-09-2024 18:52:22.0929 PM
+[ReportManager] Moved the mouse to the middle of the element. @10-09-2024 18:52:23.0070 PM
+[ReportManager] Click "Upload". @10-09-2024 18:52:24.0161 PM
+[ReportManager] Assert that the element located by "By.id: uploaded-files" text is equal to "3.jpg". @10-09-2024 18:52:24.0164 PM
+[ReportManager] Expected "3.jpg", and actual "3.jpg" @10-09-2024 18:52:24.0259 PM
+[ReportManager] Successfully created attachment 'Screenshot - Assert_18-52-24-600_10092024' @10-09-2024 18:52:24.0601 PM
+[ReportManager] Expected "3.jpg", and actual "3.jpg" @10-09-2024 18:52:24.0601 PM
+[ReportManager] Assertion passed @10-09-2024 18:52:24.0601 PM
+[ReportManager] Assertion passed @10-09-2024 18:52:24.0601 PM
